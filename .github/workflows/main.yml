@@ -1,7 +1,7 @@
 name: Publish package to GitHub Packages
 on:
   push:
-    
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -14,7 +14,11 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Set up Maven settings
+        run: |
+          mkdir -p ~/.m2
+          echo '<settings><servers><server><id>github</id><username>${{ github.actor }}</username><password>${{ secrets.GITHUB_TOKEN }}</password></server></servers></settings>' > ~/.m2/settings.xml
       - name: Publish package
-        run: mvn deploy
+        run: mvn deploy -s ~/.m2/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
