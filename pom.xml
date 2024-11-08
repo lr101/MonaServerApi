@@ -10,9 +10,14 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Packages</name>
+            <name>lr101</name>
             <url>https://maven.pkg.github.com/lr101/MonaServerApi</url>
         </repository>
+        <snapshotRepository>
+            <id>github-snapshot</id>
+            <name>lr101</name>
+            <url>https://maven.pkg.github.com/lr101/MonaServerApi</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <properties>
