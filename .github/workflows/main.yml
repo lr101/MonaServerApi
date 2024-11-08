@@ -6,8 +6,13 @@ jobs:
   build_jar:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: eric2788/maven-jar-publish@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Release
+      uses: qcastel/github-actions-maven-release@master
+      with:
+        release-branch-name: "master"
+
+        git-release-bot-name: "release-bot"
+        git-release-bot-email: "release-bot@example.com"
+
+        access-token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           
