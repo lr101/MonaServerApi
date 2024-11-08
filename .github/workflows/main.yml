@@ -6,6 +6,8 @@ jobs:
   build_jar:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout code
+      uses: actions/checkout@master
     - name: Release
       uses: qcastel/github-actions-maven-release@master
       with:
