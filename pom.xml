@@ -10,15 +10,11 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>lr101</name>
+            <name>GitHub OWNER Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/lr101/MonaServerApi</url>
         </repository>
-        <snapshotRepository>
-            <id>github-snapshot</id>
-            <name>lr101</name>
-            <url>https://maven.pkg.github.com/lr101/MonaServerApi</url>
-        </snapshotRepository>
     </distributionManagement>
+
 
     <properties>
         <!-- Java version -->
@@ -123,11 +119,6 @@
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>3.1.3</version>
-                <configuration>
-                    <altDeploymentRepository>
-                        internal.repo::default::file://${project.build.directory}/mvn-artifact
-                    </altDeploymentRepository>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
