@@ -18,7 +18,7 @@ get:
       content:
         image/png:
           schema:
-            $ref: '../parameters/image.yaml'
+            $ref: '../parameters/imageUrl.yaml'
     404:
       description: Group does not exist
       content:

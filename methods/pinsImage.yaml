@@ -17,7 +17,7 @@ get:
       content:
         image/*:
           schema:
-            $ref: '../parameters/image.yaml'
+            $ref: '../parameters/imageUrl.yaml'
     404:
       description: Pin does not exist
       content:
