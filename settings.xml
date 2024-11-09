@@ -11,19 +11,26 @@
             <id>github</id>
             <repositories>
                 <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                </repository>
+                <repository>
                     <id>github</id>
-                    <name>GitHub lr101 Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/lr101</url>
+                    <url>https://maven.pkg.github.com/lr101/MonaServerApi</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
                 </repository>
             </repositories>
         </profile>
+
     </profiles>
 
     <servers>
         <server>
             <id>github</id>
-            <username>${env.GITHUB_USERNAME}</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <username>lr101</username>
+            <password>${env.MAVEN_TOKEN}</password>
         </server>
     </servers>
 </settings>

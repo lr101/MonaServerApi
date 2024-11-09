@@ -11,4 +11,4 @@ properties:
   ranking:
     type: integer
   profile_image_small:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'

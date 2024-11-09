@@ -8,4 +8,4 @@ properties:
   userId:
     $ref: '../parameters/id.yaml'
   profileImageSmall:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'

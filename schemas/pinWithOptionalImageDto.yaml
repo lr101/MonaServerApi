@@ -18,6 +18,6 @@ properties:
   creationUser:
     $ref: '../parameters/id.yaml'
   image:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'
   groupId:
     $ref: '../parameters/id.yaml'

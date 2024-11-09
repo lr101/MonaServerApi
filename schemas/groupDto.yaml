@@ -21,6 +21,6 @@ properties:
   lastUpdated:
     $ref: '../parameters/date.yaml'
   profileImage:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'
   pinImage:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'

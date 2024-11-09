@@ -3,6 +3,6 @@ properties:
   userTokenDto:
     $ref: '../schemas/tokenResponseDto.yaml'
   profileImageSmall:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'
   profileImage:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'
