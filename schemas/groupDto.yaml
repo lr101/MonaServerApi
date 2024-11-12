@@ -22,5 +22,7 @@ properties:
     $ref: '../parameters/date.yaml'
   profileImage:
     $ref: '../parameters/imageUrl.yaml'
+  profileImageSmall:
+    $ref: '../parameters/image.yaml'
   pinImage:
     $ref: '../parameters/imageUrl.yaml'
