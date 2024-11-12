@@ -23,6 +23,6 @@ properties:
   profileImage:
     $ref: '../parameters/imageUrl.yaml'
   profileImageSmall:
-    $ref: '../parameters/image.yaml'
+    $ref: '../parameters/imageUrl.yaml'
   pinImage:
     $ref: '../parameters/imageUrl.yaml'
