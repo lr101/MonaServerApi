@@ -107,6 +107,3 @@ components:
       type: http
       scheme: bearer
       bearerFormat: JWT
-    basic:
-      type: http
-      scheme: basic
