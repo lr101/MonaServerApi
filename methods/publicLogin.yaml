@@ -3,17 +3,8 @@ post:
   summary: User login
   tags:
     - auth
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-          properties:
-            username:
-              $ref: '../parameters/shortString.yaml'
-            password:
-              $ref: '../parameters/shortString.yaml'
+  security:
+    - basic: []
   responses:
     '200':
       description: Successful login

@@ -3,7 +3,7 @@ info:
   title: Stick-It RESP API
   version: 1.0.1
 servers:
-  - url: https://app.lr-projects.de
+  - url: https://stick-it.lr-projects.de
   - url: http://localhost:8081
 tags:
   - name: public
@@ -100,3 +100,13 @@ paths:
 
   /api/v2/status:
     $ref: './methods/status.yaml'
+
+components:
+  securitySchemes:
+    token:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    basic:
+      type: http
+      scheme: basic
