@@ -8,7 +8,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: '../parameters/id.yaml'
+          $ref: '../schemas/refreshTokenRequestDto.yaml'
   responses:
     '201':
       description: Successfully applied new access token
