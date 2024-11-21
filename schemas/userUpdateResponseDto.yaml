@@ -1,4 +1,10 @@
 type: object
+required:
+  - userTokenDto
+  - profileImageSmall
+  - profileImage
+  - username
+  - description
 properties:
   userTokenDto:
     $ref: '../schemas/tokenResponseDto.yaml'

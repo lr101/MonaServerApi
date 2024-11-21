@@ -2,6 +2,7 @@ type: object
 required:
   - username
   - userId
+  - description
 properties:
   username:
     $ref: '../parameters/shortString.yaml'
