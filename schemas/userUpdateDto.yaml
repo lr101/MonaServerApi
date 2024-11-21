@@ -6,3 +6,7 @@ properties:
     $ref: '../parameters/shortString.yaml'
   image:
     $ref: '../parameters/image.yaml'
+  username:
+    $ref: '../parameters/shortString.yaml'
+  description:
+    $ref: '../parameters/longString.yaml'
