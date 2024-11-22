@@ -1,7 +1,4 @@
 type: object
-required:
-  - username
-  - description
 properties:
   userTokenDto:
     $ref: '../schemas/tokenResponseDto.yaml'
