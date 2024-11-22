@@ -83,8 +83,11 @@ paths:
   /api/v2/pins/{pinId}/image:
     $ref: './methods/pinsImage.yaml'
 
-  /api/v2/likes/{pinId}:
+  /api/v2/pins/{pinId}/likes:
     $ref: './methods/likes.yaml'
+
+  /api/v2/users/{userId}/likes:
+    $ref: './methods/userLikes.yaml'
 
   /api/v2/public/infos:
     $ref: './methods/publicInfos.yaml'
