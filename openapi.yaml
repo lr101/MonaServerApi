@@ -22,6 +22,8 @@ tags:
     description: Everything about Reports
   - name: likes
     description: Everything about Likes
+  - name: admin
+    description: Everything only allowed by Admins
 paths:
   /api/v2/groups:
     $ref: './methods/groups.yaml'
@@ -103,6 +105,9 @@ paths:
 
   /api/v2/status:
     $ref: './methods/status.yaml'
+
+  /api/v2/admin/mail:
+    $ref: './methods/adminMail.yaml'
 
 components:
   securitySchemes:
