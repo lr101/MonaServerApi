@@ -1,10 +1,10 @@
-post:
-  operationId: postUserEmailVerification
-  summary: Verify user email
+get:
+  operationId: getUserLikes
+  summary: Get user's likes
   security:
     - token: [ ]
   tags:
-    - users
+    - likes
   parameters:
     - name: userId
       in: path
@@ -12,8 +12,8 @@ post:
         $ref: '../parameters/id.yaml'
   responses:
     '200':
-      description: Successfully verified email
+      description: Successfully returned user's likes
       content:
         application/json:
           schema:
-            $ref: '../parameters/shortString.yaml'
+            $ref: '../schemas/userLikesDto.yaml'
