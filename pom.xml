@@ -4,7 +4,7 @@
 
     <groupId>de.lr-projects</groupId>
     <artifactId>monaserverapi</artifactId>
-    <version>1.0.9-SNAPSHOT</version>
+    <version>1.0.8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <distributionManagement>

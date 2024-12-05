@@ -91,9 +91,6 @@ paths:
   /api/v2/users/{userId}/likes:
     $ref: './methods/userLikes.yaml'
 
-  /api/v2/users/{userId}/verify-email:
-    $ref: './methods/verifyUserEmail.yaml'
-
   /api/v2/public/infos:
     $ref: './methods/publicInfos.yaml'
 
