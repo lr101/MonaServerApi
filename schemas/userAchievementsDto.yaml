@@ -1,0 +1,17 @@
+type: array
+items:
+  type: object
+  required:
+    - achievementId
+    - claimed
+    - thresholdValue
+    - currentValue
+  properties:
+    achievementId:
+      type: integer
+    claimed:
+      type: boolean
+    thresholdValue:
+      type: integer
+    currentValue:
+      type: integer

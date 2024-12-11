@@ -106,6 +106,12 @@ paths:
   /api/v2/users/{userId}/xp:
     $ref: './methods/userXp.yaml'
 
+  /api/v2/users/{userId}/achievements:
+    $ref: './methods/userAchievements.yaml'
+
+  /api/v2/users/{userId}/achievements/{achievementId}:
+    $ref: './methods/userAchievementsById.yaml'
+
   /api/v2/status:
     $ref: './methods/status.yaml'
 
