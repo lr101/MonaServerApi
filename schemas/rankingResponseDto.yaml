@@ -2,6 +2,7 @@ required:
   - userId
   - username
   - ranking
+  - selectedBatch
 type: object
 properties:
   userId:
