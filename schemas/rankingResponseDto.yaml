@@ -12,3 +12,6 @@ properties:
     type: integer
   profile_image_small:
     $ref: '../parameters/imageUrl.yaml'
+  selectedBatch:
+    type: integer
+    nullable: true
