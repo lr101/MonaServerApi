@@ -12,6 +12,6 @@ items:
     claimed:
       type: boolean
     thresholdValue:
-      type: integer
+      type: string
     currentValue:
-      type: integer
+      type: string
