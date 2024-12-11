@@ -9,3 +9,6 @@ properties:
     $ref: '../parameters/id.yaml'
   description:
     $ref: '../parameters/longString.yaml'
+  selectedBatch:
+    type: integer
+    nullable: true
