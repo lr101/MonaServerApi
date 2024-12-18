@@ -1,5 +1,9 @@
 get:
   operationId: getMapInfo
+  tags:
+    - ranking
+  security:
+    - token: []
   parameters:
     - name: latitude
       in: query
