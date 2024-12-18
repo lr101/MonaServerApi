@@ -3,7 +3,7 @@ type: array
 items:
   type: object
   properties:
-    userInfoDto:
+    groupInfoDto:
       $ref: './groupDto.yaml'
     rankNr:
       type: integer
