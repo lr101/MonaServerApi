@@ -7,7 +7,6 @@ required:
   - nae1
   - gid2
   - name2
-  - cc
 properties:
   id:
     type: string
