@@ -24,6 +24,8 @@ tags:
     description: Everything about Likes
   - name: admin
     description: Everything only allowed by Admins
+  - name: ranking
+    description: Everything about user rankings
 paths:
   /api/v2/groups:
     $ref: './methods/groups.yaml'
@@ -54,9 +56,6 @@ paths:
 
   /api/v2/groups/{groupId}/members:
     $ref: './methods/groupMembers.yaml'
-
-  /api/v2/groups/{groupId}/members/ranking:
-    $ref: './methods/groupRanking.yaml'
 
   /api/v2/public/delete-code/{username}:
     $ref: './methods/userDeleteCode.yaml'
@@ -111,6 +110,18 @@ paths:
 
   /api/v2/users/{userId}/achievements/{achievementId}:
     $ref: './methods/userAchievementsById.yaml'
+
+  /api/v2/ranking/group:
+    $ref: './methods/groupRanking.yaml'
+
+  /api/v2/ranking/user:
+    $ref: './methods/userRanking.yaml'
+
+  /api/v2/map:
+    $ref: './methods/mapInfo.yaml'
+
+  /api/v2/map/geojson:
+    $ref: './methods/getGeojson.yaml'
 
   /api/v2/status:
     $ref: './methods/status.yaml'

@@ -1,0 +1,32 @@
+get:
+  operationId: getAdmin0Info
+  description: Gets the geojson info of a specific gid
+  security:
+    - token: []
+  tags:
+    - ranking
+  parameters:
+    - name: gid0
+      description: Country ID. Only one allowed
+      in: query
+      schema:
+        type: string
+    - name: gid1
+      description: State ID. Only one allowed
+      in: query
+      schema:
+        type: string
+    - name: gid2
+      description: County ID. Only one allowed
+      in: query
+      schema:
+        type: string
+  responses:
+    200:
+      description: OK
+      content:
+        application/json:
+          schema:
+            type: object
+    404:
+      description: Country not found

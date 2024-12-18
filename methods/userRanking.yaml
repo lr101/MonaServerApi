@@ -1,5 +1,5 @@
 get:
-  operationId: groupRanking
+  operationId: userRanking
   parameters:
     - name: gid0
       description: Country ID. When not null the ranking by country is returned.
@@ -33,5 +33,5 @@ get:
       content:
         application/json:
           schema:
-            $ref: '../schemas/groupRankingDto.yaml'
+            $ref: '../schemas/userRankingDto.yaml'
 
