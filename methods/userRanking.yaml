@@ -1,5 +1,9 @@
 get:
   operationId: userRanking
+  tags:
+    - ranking
+  security:
+    - token: [ ]
   parameters:
     - name: gid0
       description: Country ID. When not null the ranking by country is returned.

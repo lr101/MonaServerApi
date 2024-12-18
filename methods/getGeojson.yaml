@@ -1,5 +1,5 @@
 get:
-  operationId: getAdmin0Info
+  operationId: getGeoJson
   description: Gets the geojson info of a specific gid
   security:
     - token: []
