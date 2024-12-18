@@ -6,16 +6,6 @@ get:
   tags:
     - ranking
   parameters:
-    - name: gid0
-      description: Country ID. Only one allowed
-      in: query
-      schema:
-        type: string
-    - name: gid1
-      description: State ID. Only one allowed
-      in: query
-      schema:
-        type: string
     - name: gid2
       description: County ID. Only one allowed
       in: query
