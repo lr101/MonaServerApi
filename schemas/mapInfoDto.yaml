@@ -37,7 +37,3 @@ properties:
     type: string
     nullable: true
     description: Second-level administrative name.
-  cc:
-    type: string
-    nullable: true
-    description: Country code.
