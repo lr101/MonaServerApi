@@ -17,6 +17,8 @@ get:
       content:
         application/json:
           schema:
-            type: object
+            type: array
+            items:
+              type: string
     404:
       description: Country not found
