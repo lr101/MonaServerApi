@@ -6,6 +6,7 @@ items:
     - claimed
     - thresholdValue
     - currentValue
+    - thresholdUp
   properties:
     achievementId:
       type: integer
@@ -15,3 +16,5 @@ items:
       type: integer
     currentValue:
       type: integer
+    thresholdUp:
+      type: boolean
