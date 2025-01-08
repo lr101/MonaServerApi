@@ -6,6 +6,7 @@ required:
   - latitude
   - longitude
   - groupId
+  - description
 properties:
   id:
     $ref: '../parameters/id.yaml'
@@ -21,3 +22,5 @@ properties:
     $ref: '../parameters/imageUrl.yaml'
   groupId:
     $ref: '../parameters/id.yaml'
+  description:
+    $ref: '../parameters/veryLongString.yaml'
