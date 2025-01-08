@@ -23,4 +23,4 @@ properties:
   groupId:
     $ref: '../parameters/id.yaml'
   description:
-    $ref: '../parameters/veryLongString.yaml'
+    $ref: '../parameters/veryLongStringNullable.yaml'

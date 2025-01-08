@@ -20,4 +20,4 @@ properties:
   creationDate:
     $ref: '../parameters/date.yaml'
   description:
-    $ref: '../parameters/veryLongString.yaml'
+    $ref: '../parameters/veryLongStringNullable.yaml'
