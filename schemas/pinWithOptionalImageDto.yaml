@@ -6,7 +6,6 @@ required:
   - latitude
   - longitude
   - groupId
-  - description
 properties:
   id:
     $ref: '../parameters/id.yaml'

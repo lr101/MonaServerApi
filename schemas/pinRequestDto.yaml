@@ -4,7 +4,6 @@ required:
   - latitude
   - groupId
   - image
-  - description
 type: object
 properties:
   image:
