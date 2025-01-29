@@ -117,6 +117,9 @@ paths:
   /api/v2/ranking/user:
     $ref: './methods/userRanking.yaml'
 
+  /api/v2/ranking/search:
+    $ref: './methods/searchRanking.yaml'
+
   /api/v2/map:
     $ref: './methods/mapInfo.yaml'
 

@@ -6,7 +6,5 @@ properties:
     $ref: '../parameters/imageUrl.yaml'
   profileImage:
     $ref: '../parameters/imageUrl.yaml'
-  username:
-    $ref: '../parameters/shortString.yaml'
-  description:
-    $ref: '../parameters/longString.yaml'
+  userInfoDto:
+    $ref: '../schemas/userInfoDto.yaml'
