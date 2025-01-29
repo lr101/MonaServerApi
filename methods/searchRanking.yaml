@@ -1,5 +1,6 @@
 get:
   summary: Search for a location
+  operationId: searchRanking
   tags:
     - ranking
   parameters:
