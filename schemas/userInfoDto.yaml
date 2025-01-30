@@ -12,3 +12,5 @@ properties:
   selectedBatch:
     type: integer
     nullable: true
+  bestSeason:
+    $ref: './seasonItemDto.yaml'

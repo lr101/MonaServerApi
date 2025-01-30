@@ -23,8 +23,15 @@ get:
     - name: since
       description: Only include pins added since this point in time. When null all pins are included
       in: query
+      deprecated: true
       schema:
         $ref: '../parameters/date.yaml'
+    - name: season
+      description: Only include pins from this season. When null all pins are included
+      in: query
+      schema:
+        type: boolean
+        default: false
     - name: page
       description: "page number"
       in: query
