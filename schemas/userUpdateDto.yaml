@@ -13,3 +13,5 @@ properties:
   selectedBatch:
     type: integer
     nullable: true
+  messagingToken:
+    $ref: '../parameters/shortString.yaml'

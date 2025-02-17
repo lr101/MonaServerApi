@@ -14,3 +14,7 @@ properties:
     nullable: true
   bestSeason:
     $ref: './seasonItemDto.yaml'
+  isMessagingRegistered:
+    type: boolean
+    nullable: true
+    description: Flag for whether the user registered to receive push messages. Only set for the current user.
