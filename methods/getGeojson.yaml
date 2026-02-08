@@ -8,6 +8,19 @@ get:
   parameters:
     - name: gid2
       description: County ID. Only one allowed
+      required: false
+      in: query
+      schema:
+        type: string
+    - name: gid1
+      description: State ID. Only one allowed
+      required: false
+      in: query
+      schema:
+        type: string
+    - name: gid0
+      description: Country ID. Only one allowed
+      required: false
       in: query
       schema:
         type: string
