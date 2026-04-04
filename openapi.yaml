@@ -135,6 +135,9 @@ paths:
   /api/v2/admin/notification:
     $ref: './methods/adminNotification.yaml'
 
+  /api/v3/sync:
+    $ref: './methods/sync.yaml'
+
 components:
   securitySchemes:
     token:

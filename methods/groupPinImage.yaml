@@ -12,6 +12,13 @@ get:
       description: group id
       schema:
         $ref: '../parameters/id.yaml'
+    - name: redirect
+      in: query
+      required: false
+      description: When true, this endpoint redirects directly to the target image otherwise the image URL is returned
+      schema:
+        type: boolean
+        default: false
   responses:
     '200':
       description: Successful response
@@ -19,6 +26,8 @@ get:
         image/png:
           schema:
             $ref: '../parameters/imageUrl.yaml'
+    301:
+      description: Successful redirect to image
     404:
       description: Group does not exist
       content:
