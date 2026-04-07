@@ -23,9 +23,3 @@ properties:
     $ref: '../parameters/id.yaml'
   description:
     $ref: '../parameters/veryLongStringNullable.yaml'
-  gid0:
-    $ref: '../parameters/shortString.yaml'
-  gid1:
-    $ref: '../parameters/shortString.yaml'
-  gid2:
-    $ref: '../parameters/shortString.yaml'
