@@ -21,4 +21,6 @@ properties:
         group:
           $ref: "./groupDto.yaml"
         pinsAdded:
-          $ref: "./pinWithOptionalImageDto.yaml"
+          type: array
+          items:
+            $ref: "./pinWithOptionalImageDto.yaml"
