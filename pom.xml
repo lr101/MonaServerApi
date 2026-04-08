@@ -98,8 +98,8 @@
                             <skipValidateSpec>true</skipValidateSpec>
                             <inputSpec>${project.basedir}/openapi.yaml</inputSpec>
                             <generatorName>kotlin-spring</generatorName>
-                            <apiPackage>de.lrprojects.monaserver-api.api</apiPackage>
-                            <modelPackage>de.lrprojects.monaserver-api.model</modelPackage>
+                            <apiPackage>de.lrprojects.monaserverapi.api</apiPackage>
+                            <modelPackage>de.lrprojects.monaserverapi.model</modelPackage>
                             <configOptions>
                                 <useTags>true</useTags>
                                 <openApiNullable>false</openApiNullable>
@@ -149,8 +149,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
+                    <source>${maven.compiler.release}</source>
+                    <target>${maven.compiler.release}</target>
                 </configuration>
             </plugin>
 
