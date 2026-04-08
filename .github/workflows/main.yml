@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: 17
+          java-version: 24
       - name: Build and deploy maven
         run: mvn deploy --settings settings.xml
         env:
